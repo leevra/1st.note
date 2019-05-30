@@ -1,0 +1,24 @@
+# Site settings
+title: "note"
+description: 오랫동안 꿈을 그리는 사람은 마침내 그 꿈을 닮아간다.
+author: leeseungju
+email: help@leeseungju.com
+twitter_username: _HairForceOne
+github_username: mkchoi212
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://1st.note.leeseungju.com" # the base hostname & protocol for your site
+
+google_analytics_id: 
+disqus_id:
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:title
+
+sass:
+    style: compressed
+
+exclude: [vendor]
+
